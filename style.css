@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 95vw;
+  background-color: #ccc;
+  color: #fff;
+  /* text-align: center; */
+  margin: 5px auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #030303;
+  padding: 40px 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-txt {
+  width: 60vw;
+  height: 30px;
+  padding: 10px;
+  margin-right: 0;
+  border: none;
+  outline: none;
+}
+
+#input-btn {
+  background-color: #ccc;
+  width: 150px;
+  height: 30px;
+  padding: 0px;
+  color: #444;
+  cursor: pointer;
+  border: none;
+}
+
+#input-btn:hover {
+  background-color: #228080;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 95vw;
+}
+
+li {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.todo-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-container {
+  display: flex;
+  background-color: #fffefe;
+  color: #444;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.check-button {
+  position: absolute;
+  top: 1rem;
+  left: 10px;
+  padding: 2px;
+  margin-right: 15px;
+}
+
+.todo-container:nth-child(odd) {
+  background-color: #f5eeee;
+  color: #444;
+}
+
+.check-todo {
+  background-color: #228080 !important;
+  color: #fff !important;
+  text-decoration: line-through;
+}
+
+span i {
+  cursor: pointer;
+}
+
+.clear-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear {
+  background-color: #030303;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 24px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-top: 40px;
+}
